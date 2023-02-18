@@ -15,8 +15,8 @@ def display_menu():
 
 
 def get_value():
-    pass
-
+    expression = input("\nВведите выражение:\n>>> ")
+    return expression
 
 def output(result):
-    pass
+    print(f"Результат: {result}\n")
