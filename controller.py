@@ -8,7 +8,7 @@ def run_app():
             if num == 1:
                 pass
             elif num == 2:
-                pass
+                model.get_log()
             elif num == 3:
                 model.logger("Выход из программы")
                 break
