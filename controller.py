@@ -10,6 +10,6 @@ def run_app():
             elif num == 2:
                 pass
             elif num == 3:
-                pass
+                model.logger("Выход из программы")
                 break
 
