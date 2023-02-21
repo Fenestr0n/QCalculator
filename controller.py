@@ -12,7 +12,7 @@ def run_app():
                 model.logger(f"Результат: {res}")
                 view.output(res)
             elif num == 2:
-                model.get_log()
+                print(model.get_log())
                 model.logger("Просмотр лога")
             elif num == 3:
                 model.logger("Выход из программы")

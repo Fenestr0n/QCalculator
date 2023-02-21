@@ -8,7 +8,7 @@ def logger(msg):
 
 def get_log():
      with open("log_file.txt", "r", encoding="utf-8") as file:
-        print(file.read())
+        return file.read()
 
 
 def calculator(expression):
